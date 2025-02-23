@@ -1,0 +1,15 @@
+zone "dev.io" {
+
+    type master;
+
+    file "/etc/bind/zones/db.dev.io";
+
+};
+
+zone "2.168.192.in-addr.arpa" {
+
+    type master;
+
+    file "/etc/bind/zones/db.192.168.2";
+
+};

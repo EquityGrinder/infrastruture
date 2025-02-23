@@ -1,0 +1,11 @@
+.cache/*
+.dotnet/*
+.vscode-server/*
+
+docker/milvus/volumes/*
+.bash_history
+docker/kafka/logs
+docker/ollama/volumes/*
+nano.40013.save
+.docker/buildx/.lock
+.wget-hsts

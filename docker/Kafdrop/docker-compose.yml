@@ -1,0 +1,17 @@
+version: '3.5'
+services:
+  kafdrop:
+    image: obsidiandynamics/kafdrop
+    ports:
+      - "9100:9000"
+    environment:
+      KAFKA_BROKERCONNECT: kafka.dev.io:9093
+    networks:
+      - dev
+    dns:
+      - 172.28.0.2
+
+  
+networks:
+  dev:
+    external: true
